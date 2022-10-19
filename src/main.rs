@@ -589,7 +589,7 @@ fn main_try() -> Result<()> {
                                 up_channel.number(),
                                 &mode
                             );
-                            up_channel.set_mode(&mut core, mode.into())?;
+                            up_channel.set_mode(&mut core, mode)?;
                         }
                     }
 
